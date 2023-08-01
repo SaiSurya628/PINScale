@@ -1,0 +1,185 @@
+.iconer{
+    width: 30px;
+height: 30px;
+flex-shrink: 0;
+}
+.dash-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    
+}
+.debitColor{
+    color: #FE5C73;
+    font-family: inter;
+    margin-left:15px ;
+}
+.creditColor{
+    color: #16DBAA;
+    font-family: Inter;
+    margin-left:15px ;
+}
+
+.paragraph{
+color: #505887;
+font-family: Inter;
+font-size:15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.list-items{
+    display: flex;
+    width:50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.list-items2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+}
+.iconer2{
+    width: 20px;
+height: 20px;
+color: #505887;
+
+
+font-size: 20px;
+border-style:none ;
+flex-shrink: 0;
+background-color: transparent;
+cursor: pointer;
+
+}
+.iconer3{
+    width: 20px;
+    height: 19px;
+    flex-shrink: 0;
+    font-size: 19px;
+    color:red;
+    border-style:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   }
+
+   .trigger-button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: white;
+    padding: 8px 15px 8px 15px;
+    margin: 8px;
+    background-color: #7c69e9;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+   }
+
+  .delete-logo{
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50%;
+background-color:#FDE68A;
+
+/* Shadow / lg */
+box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+}
+.delete-content{
+    color: #333B69;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+}
+  
+.delete-button{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color:white;
+    padding: 8px 15px 8px 15px;
+    margin: 8px;
+    background-color:rgb(121, 15, 15);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+.delete-para{
+    color: #505887;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+} 
+.delete-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* For Mobile Devices (up to 700px) */
+@media screen and (max-width: 700px) {
+   
+  
+    .iconer2,
+    .iconer3 {
+      font-size: 16px;
+    }
+  
+    .paragraph {
+      font-size: 14px;
+    }
+
+  
+    .trigger-button {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  
+    .delete-logo {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .delete-content {
+      font-size: 16px;
+    }
+  
+    .delete-button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 6px;
+    }
+  
+    .delete-para {
+      font-size: 12px;
+    }
+  
+    
+  
+    .button-container {
+      flex-direction: column;
+    }
+  }
+  
